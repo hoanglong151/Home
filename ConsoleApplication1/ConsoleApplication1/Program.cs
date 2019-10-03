@@ -11,13 +11,42 @@ namespace ConsoleApplication1
         public static void Main(string[] args)
         {
             Console.WriteLine("hello github");
-            Console.ReadLine();
-            Console.WriteLine(pow(2, 5));
-            Console.WriteLine(abs(-5));
-            Console.WriteLine(Square(2));
+            Console.WriteLine("Nhap so kiem tra chan");
+            int Even = int.Parse(Console.ReadLine());
+            Console.WriteLine(IsEven(Even));
+            Console.WriteLine("Nhap so kiem tra le");
+            int Odd = int.Parse(Console.ReadLine());
+            Console.WriteLine(IsOdd(Odd));
+            Console.WriteLine("Nhap so kiem tra nguyen to");
+            int Prime = int.Parse(Console.ReadLine());
+            Console.WriteLine(IsPrime(Prime));
+            Console.WriteLine("Nhap so kiem tra Pow");
+            int Pow = int.Parse(Console.ReadLine());
+            int Pows = int.Parse(Console.ReadLine());
+            Console.WriteLine(pow(Pow,Pows));
+            Console.WriteLine("Nhap so kiem tra gia tri tuyet doi");
+            int ABS = int.Parse(Console.ReadLine());
+            Console.WriteLine(abs(ABS));
+            Console.WriteLine("Nhap so kiem tra Ceil");
+            float ceil = float.Parse(Console.ReadLine());
+            Console.WriteLine(Ceil(ceil));
+            Console.WriteLine("Nhap so kiem tra Floor");
+            float fl = float.Parse(Console.ReadLine());
+            Console.WriteLine(Floor(fl));
+            Console.WriteLine("Nhap so kiem tra giai thua");
+            int fac = int.Parse(Console.ReadLine());
+            Console.WriteLine(Factorial(fac));
+            Console.WriteLine("Nhap so kiem tra Rand2");
             Console.WriteLine(Rand2());
+            Console.WriteLine("Nhap so kiem tra Rand1");
             Console.WriteLine(Rand1());
-            Console.WriteLine(Factorial(3));
+            Console.WriteLine("Nhap so kiem tra mu 2");
+            int sq = int.Parse(Console.ReadLine());
+            Console.WriteLine(Square(sq));
+            Console.WriteLine("Nhap so kiem tra mu 3");
+            int cu = int.Parse(Console.ReadLine());
+            Console.WriteLine(Cube(cu));
+
 
         }
         public static bool IsOdd(int n)
@@ -37,7 +66,6 @@ namespace ConsoleApplication1
                     return true;
             }
             return false;
-
         }
         public static bool IsPrime(int n)
         {
