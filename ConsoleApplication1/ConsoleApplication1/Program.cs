@@ -48,8 +48,6 @@ namespace ConsoleApplication1
             Console.WriteLine("Nhap so kiem tra mu 3");
             int cu = int.Parse(Console.ReadLine());
             Console.WriteLine(Cube(cu));
-
-
         }
         public static bool IsOdd(int n)
         {
@@ -122,11 +120,11 @@ namespace ConsoleApplication1
             n = n * n * n;
             return n;
         }
-        public static double Rand2()
+        public static float Rand2()
         {               
             Random rd =  new Random();
             Double R = rd.NextDouble();
-            return R;
+            return (float)R;
         }
         public static int Rand1()
         {

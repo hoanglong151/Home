@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ConsoleApplication1;
 
+
 namespace UnitTestProject1
 {
     [TestClass]
@@ -92,7 +93,5 @@ namespace UnitTestProject1
             long res04 = Program.Factorial(3);
             Assert.AreEqual(6, res04);
         }
-
-
     }
 }
