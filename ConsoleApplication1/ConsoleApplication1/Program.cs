@@ -21,9 +21,11 @@ namespace ConsoleApplication1
             int Prime = int.Parse(Console.ReadLine());
             Console.WriteLine(IsPrime(Prime));
             Console.WriteLine("Nhap so kiem tra Pow");
+            Console.Write("Nhap so kiem tra Nguyen : ");
             int Pow = int.Parse(Console.ReadLine());
+            Console.Write("Nhap so kiem tra Mu : ");
             int Pows = int.Parse(Console.ReadLine());
-            Console.WriteLine(pow(Pow,Pows));
+            Console.WriteLine(Pow + "^" + Pows + "=" + pow(Pow,Pows));
             Console.WriteLine("Nhap so kiem tra gia tri tuyet doi");
             int ABS = int.Parse(Console.ReadLine());
             Console.WriteLine(abs(ABS));
