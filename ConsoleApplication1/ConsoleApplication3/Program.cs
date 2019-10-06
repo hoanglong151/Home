@@ -13,6 +13,7 @@ namespace ConsoleApplication3
             int[] array = new int[10];
             Int(array);
         }
+
         public static void Int(int[] iArr)
         {
             for (int i = 0; i < iArr.Length; i++)
